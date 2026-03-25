@@ -17,8 +17,8 @@ from google import genai
 # ─────────────────────────────────────────────
 # Конфигурация
 # ─────────────────────────────────────────────
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 AUDIO_PROMPT = (
     "Ты — эксперт в области лингвистики, психологии и анализа данных. Твоя задача — проанализировать прикрепленный аудиофайл (или его транскрипцию).\n"
